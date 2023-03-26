@@ -171,8 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/AI2202/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp \
     vendor/asus/AI2202/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/audio_effects_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/audio_effects_AI2202.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/audio_policy_configuration_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/audio_policy_configuration_AI2202.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/audio_policy_volumes_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/audio_policy_volumes_AI2202.xml \
     vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/default_volume_tables_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/default_volume_tables_AI2202.xml \
     vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/mixer_paths_DAVINCI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/mixer_paths_DAVINCI.xml \
     vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/mixer_paths_DAVINCI_EU.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/mixer_paths_DAVINCI_EU.xml \
