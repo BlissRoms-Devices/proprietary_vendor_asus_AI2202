@@ -170,13 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/AI2202/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_acdb_cal.acdb \
     vendor/asus/AI2202/proprietary/vendor/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp/MTP_workspaceFileXml.qwsp \
     vendor/asus/AI2202/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/audio_effects_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/audio_effects_AI2202.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/default_volume_tables_AI2202.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/default_volume_tables_AI2202.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/mixer_paths_DAVINCI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/mixer_paths_DAVINCI.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/mixer_paths_DAVINCI_EU.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/mixer_paths_DAVINCI_EU.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/resourcemanager_davinci.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/resourcemanager_davinci.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio/DAVINCI/usecaseKvManager_davinci.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/DAVINCI/usecaseKvManager_davinci.xml \
-    vendor/asus/AI2202/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/asus/AI2202/proprietary/vendor/etc/camera/camera_cdn.csv:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cdn.csv \
     vendor/asus/AI2202/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/asus/AI2202/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
