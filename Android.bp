@@ -128,6 +128,28 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "AudioWizardView",
+	owner: "asus",
+	apk: "proprietary/priv-app/AudioWizardView/AudioWizardView.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "DiracAudioControlService",
+	owner: "asus",
+	apk: "proprietary/priv-app/DiracAudioControlService/DiracAudioControlService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "asus",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",

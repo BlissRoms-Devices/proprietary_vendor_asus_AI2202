@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/AI2202
 
 PRODUCT_COPY_FILES += \
+    vendor/asus/AI2202/proprietary/etc/permissions/com.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dirac.acs.xml \
     vendor/asus/AI2202/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/asus/AI2202/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/asus/AI2202/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
@@ -1155,6 +1156,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/AI2202/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/libdigital-dimming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdigital-dimming.so \
+    vendor/asus/AI2202/proprietary/vendor/lib64/libdiracgefwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiracgefwrapper.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
@@ -1472,6 +1474,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/AI2202/proprietary/vendor/lib64/qtiwakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiwakelock.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
+    vendor/asus/AI2202/proprietary/vendor/lib64/soundfx/libdiraceffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdiraceffect.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
     vendor/asus/AI2202/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
@@ -1649,6 +1652,8 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     liblx-osal \
     vendor.qti.hardware.AGMIPC@1.0-impl \
+    AudioWizardView \
+    DiracAudioControlService \
     CACertService \
     CneApp \
     IWlanService \
