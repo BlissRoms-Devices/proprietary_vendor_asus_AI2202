@@ -1652,6 +1652,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     liblx-osal \
     vendor.qti.hardware.AGMIPC@1.0-impl \
+    AsusVisualMaster \
     AudioWizardView \
     DiracAudioControlService \
     CACertService \
