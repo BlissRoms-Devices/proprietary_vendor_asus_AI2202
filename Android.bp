@@ -128,17 +128,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "AsusVisualMaster",
-	owner: "asus",
-	apk: "proprietary/priv-app/AsusVisualMaster/AsusVisualMaster.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "AudioWizardView",
 	owner: "asus",
 	apk: "proprietary/priv-app/AudioWizardView/AudioWizardView.apk",
@@ -369,24 +358,6 @@ prebuilt_etc_xml {
 	name: "qtiradio-saidl",
 	owner: "asus",
 	src: "proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.pixelworks.hardware.display.iris-service",
-	owner: "asus",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.pixelworks.hardware.feature.irisfeature-service",
-	owner: "asus",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
